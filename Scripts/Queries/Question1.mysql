@@ -1,2 +1,2 @@
-SELECT Standard_Price, Product_Description, Product_ID 
+SELECT FORMAT(Standard_Price, 2), Product_Description, Product_ID 
 FROM Product_t;
