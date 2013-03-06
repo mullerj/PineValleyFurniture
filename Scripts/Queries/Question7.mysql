@@ -1,0 +1,4 @@
+SELECT State, Customer_Name, City
+FROM Customer_t
+WHERE State IN ('FL', 'TX', 'CA', 'HI')
+ORDER BY State, Customer_Name;

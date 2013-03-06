@@ -1,0 +1,3 @@
+SELECT Product_Description, Product_Finish
+FROM Product_t
+WHERE Product_Finish <> 'Cherry';
