@@ -1,0 +1,3 @@
+SELECT COUNT(DISTINCT Product_ID) AS Count_Of_Different_Product_Types
+FROM Order_Line_t
+WHERE Order_ID = 1004;

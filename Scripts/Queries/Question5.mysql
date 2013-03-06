@@ -1,0 +1,3 @@
+SELECT Order_ID, Order_Date
+FROM Order_t
+WHERE Order_Date > '2004-10-24';

@@ -1,0 +1,2 @@
+SELECT FORMAT(AVG(Standard_Price), 2) AS Average_Standard_Price
+FROM Product_t;
