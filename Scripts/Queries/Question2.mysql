@@ -1,4 +1,4 @@
 
-SELECT Product_Description, FORMAT(Standard_Price, 2)
+SELECT Product_Description, FORMAT(Standard_Price, 2) AS Standard_Price
 FROM Product_t
 WHERE Standard_Price < 275;
