@@ -1,0 +1,4 @@
+SELECT State, COUNT(DISTINCT (Customer_ID)) AS Customer_Count
+FROM Customer_t
+GROUP BY State
+HAVING Customer_Count > 1;

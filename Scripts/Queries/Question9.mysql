@@ -1,0 +1,4 @@
+SELECT Product_Finish, FORMAT(AVG(Standard_Price), 2) AS Average_Standard_Price
+FROM Product_t
+GROUP BY Product_Finish
+HAVING Average_Standard_Price < 750;
