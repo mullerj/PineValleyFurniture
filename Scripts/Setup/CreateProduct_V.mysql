@@ -1,0 +1,4 @@
+CREATE VIEW Product_V AS
+SELECT Product_Description, Product_Finish, FORMAT(Standard_Price, 2) AS Standard_Price
+FROM Product_t
+WHERE (Product_Description LIKE('%Desk') OR Product_Description LIKE('%Table')) AND  Standard_Price > 300;
