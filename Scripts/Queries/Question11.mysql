@@ -1,2 +1,3 @@
 SELECT *
-FROM Product_V;
+FROM Product_V
+WHERE (Product_Description LIKE('%Desk') OR Product_Description LIKE('%Table')) AND  Standard_Price > 300;
